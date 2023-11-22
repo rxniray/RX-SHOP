@@ -1,0 +1,483 @@
+0000.000 (0) Opened log file at time: Wed, 22 Nov 2023 02:23:58 +0000 on http://localhost/rx-shop
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.12 WP: 6.4.1 PHP: 8.2.4 (apache2handler, Windows NT DESKTOP-9FTBCPS 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: uk Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 75.3M | 82M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 306094.6 MB
+0000.015 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.021 (0) Semaphore (fd, wp_options) being initialised
+0000.033 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.054 (0) Set semaphore last lock (fd) time to 2023-11-22 02:23:58
+0000.059 (0) Semaphore lock (fd) complete
+0000.074 (0) Backup run: resumption=0, nonce=5fe129e885c7, file_nonce=5fe129e885c7 begun at=1700619838 (1s ago), job type=backup
+0000.086 (0) Scheduling a resumption (1) after 300 seconds (1700620139) in case this run gets aborted
+0000.103 (0) Checking if we have a zip executable available
+0000.114 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.117 (0) Creation of backups of directories: beginning
+0000.132 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.885 (0) Total entities for the zip file: 1352 directories, 6982 files (0 skipped as non-modified), 70.5 MB
+0000.888 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 72189.3 KB, split: 409600 KB)
+0000.905 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.914 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.923 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.933 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.945 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.957 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.966 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.975 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.985 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.994 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.004 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0001.013 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0001.022 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0001.031 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0001.039 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0001.048 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0001.059 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0001.072 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0001.084 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0001.094 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0001.105 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0001.113 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0001.123 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0001.133 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0001.143 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0001.151 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0001.161 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0001.170 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0001.179 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0001.191 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0001.199 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0001.210 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0001.219 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0001.229 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0001.238 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0001.249 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0001.260 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0001.270 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0001.280 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0001.289 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0001.300 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0001.310 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0001.320 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0001.331 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0001.339 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0001.349 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0001.360 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0001.369 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0001.378 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0001.387 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0001.399 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0001.408 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0001.419 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0001.428 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0001.438 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0001.449 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 5600 files added (on-disk size: 0 KB)
+0001.459 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 5700 files added (on-disk size: 0 KB)
+0001.468 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 5800 files added (on-disk size: 0 KB)
+0001.476 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 5900 files added (on-disk size: 0 KB)
+0001.485 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 6000 files added (on-disk size: 0 KB)
+0001.494 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 6100 files added (on-disk size: 0 KB)
+0001.519 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 6200 files added (on-disk size: 0 KB)
+0001.532 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 6300 files added (on-disk size: 0 KB)
+0001.541 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 6400 files added (on-disk size: 0 KB)
+0001.550 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 6500 files added (on-disk size: 0 KB)
+0001.559 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 6600 files added (on-disk size: 0 KB)
+0001.569 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 6700 files added (on-disk size: 0 KB)
+0001.579 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 6800 files added (on-disk size: 0 KB)
+0001.588 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.tmp: 6900 files added (on-disk size: 0 KB)
+0094.204 (0) Creating zip file manifest (backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.list-temp.tmp)
+0094.236 (0) Successfully created zip file manifest (size: 704298)
+0094.449 (0) Created plugins zip (0) - 27371 KB in 94.3 s (290.2 KB/s) (sha1: 0027175639fbae8ded305fdb6f63d4885e5206c6, sha256: 4816df52618c5639e28a43e8b92829fcc66ef6d5218ddee92aa569c5e7c33058)
+0094.468 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0094.471 (0) No remote despatch: user chose no remote backup service
+0094.474 (0) Recording as successfully uploaded: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip
+0094.480 (0) Deleting zip manifest (backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip.list.tmp)
+0094.490 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0094.494 (0) Number of backup sets in history: 0; groups (db): 1
+0094.499 (0) Number of backup sets in history: 0; groups (files): 1
+0094.505 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0094.524 (0) Beginning creation of dump of themes (split every: 400 MB)
+0094.657 (0) Total entities for the zip file: 362 directories, 1239 files (0 skipped as non-modified), 34.6 MB
+0094.661 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 35421.6 KB, split: 409600 KB)
+0094.670 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0094.679 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0094.690 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0094.700 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0094.709 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0094.719 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0094.728 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0094.736 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0094.745 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0094.753 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0094.762 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0094.771 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0113.941 (0) Creating zip file manifest (backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.list-temp.tmp)
+0113.949 (0) Successfully created zip file manifest (size: 96129)
+0114.095 (0) Created themes zip (0) - 20292.3 KB in 19.6 s (1037.3 KB/s) (sha1: 0e5b8cb9e72336cdeed0917fb3bbd3b8fa901dcd, sha256: ea5e9d3b27a0d02f073b8489acf793ce32bd9b2fafea2192b170ed17f9a70024)
+0114.112 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0114.118 (0) No remote despatch: user chose no remote backup service
+0114.124 (0) Recording as successfully uploaded: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip
+0114.132 (0) Deleting zip manifest (backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip.list.tmp)
+0114.142 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0114.148 (0) Number of backup sets in history: 0; groups (db): 1
+0114.154 (0) Number of backup sets in history: 0; groups (files): 1
+0114.159 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0114.177 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0114.183 (0) Looking for candidates to backup in: D:\XAMPP\htdocs\rx-shop/wp-content/uploads
+0114.188 (0) finding files: 2023: adding to list (1)
+0114.194 (0) finding files: wc-logs: adding to list (2)
+0114.199 (0) finding files: woocommerce-placeholder.png: adding to list (3)
+0114.202 (0) finding files: woocommerce_uploads: adding to list (4)
+0114.207 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0114.222 (0) Total entities for the zip file: 4 directories, 32 files (0 skipped as non-modified), 5.1 MB
+0114.227 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 5201.3 KB, split: 409600 KB)
+0114.524 (0) Creating zip file manifest (backup_2023-11-22-0423_RXSHOP_5fe129e885c7-uploads.zip.list-temp.tmp)
+0114.529 (0) Successfully created zip file manifest (size: 3122)
+0114.579 (0) Created uploads zip (0) - 5177.7 KB in 0.4 s (14329.4 KB/s) (sha1: 7709256148e88dd1a028d42096ded7ebae0acbf7, sha256: 849293638de6c030abfe9ecfdefe589e30d976876a3b5df413d319abf24771c1)
+0114.595 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0114.601 (0) No remote despatch: user chose no remote backup service
+0114.605 (0) Recording as successfully uploaded: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-uploads.zip
+0114.613 (0) Deleting zip manifest (backup_2023-11-22-0423_RXSHOP_5fe129e885c7-uploads.zip.list.tmp)
+0114.622 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0114.627 (0) Number of backup sets in history: 0; groups (db): 1
+0114.631 (0) Number of backup sets in history: 0; groups (files): 1
+0114.636 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0114.649 (0) No backup of mu-plugins: excluded by user's options
+0114.657 (0) Beginning backup of other directories found in the content directory (index: 0)
+0114.664 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0114.668 (0) Looking for candidates to backup in: D:\XAMPP\htdocs\rx-shop/wp-content
+0114.674 (0) finding files: index.php: adding to list (1)
+0114.677 (0) finding files: languages: adding to list (2)
+0114.682 (0) finding files: plugins: skipping: this is the plugins directory
+0114.688 (0) finding files: themes: skipping: this is the themes directory
+0114.693 (0) finding files: updraft: skipping: this is the updraft directory
+0114.698 (0) finding files: upgrade: skipping: excluded by options
+0114.704 (0) finding files: uploads: skipping: this is the uploads directory
+0114.736 (0) Total entities for the zip file: 3 directories, 350 files (0 skipped as non-modified), 7.7 MB
+0114.742 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 7901.1 KB, split: 409600 KB)
+0114.753 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0114.762 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0114.773 (0) Zip: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0116.304 (0) Creating zip file manifest (backup_2023-11-22-0423_RXSHOP_5fe129e885c7-others.zip.list-temp.tmp)
+0116.311 (0) Successfully created zip file manifest (size: 26738)
+0116.336 (0) Created others zip (0) - 1918 KB in 1.6 s (1182.3 KB/s) (sha1: dcd77dab8890d239e0346a62b6067fe37be97de3, sha256: 19228489cd456920e29f57b2dd736739165837afee933a2c8c61551aa823750a)
+0116.349 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0116.355 (0) No remote despatch: user chose no remote backup service
+0116.361 (0) Recording as successfully uploaded: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-others.zip
+0116.370 (0) Deleting zip manifest (backup_2023-11-22-0423_RXSHOP_5fe129e885c7-others.zip.list.tmp)
+0116.378 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0116.382 (0) Number of backup sets in history: 0; groups (db): 1
+0116.388 (0) Number of backup sets in history: 0; groups (files): 1
+0116.391 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0116.413 (0) Saving backup status to database (elements: 8)
+0116.422 (0) Beginning creation of database dump (WordPress DB)
+0116.428 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0116.497 (0) Table wp_options: Total expected rows (via COUNT): 491
+0116.502 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0116.555 (0) Table wp_options: Rows added in this batch (next record: 1367): 487 (uncompressed bytes in this segment=2467565) in 0.11 seconds
+0116.573 (0) Table wp_options: finishing file(s) (2, 368.6 KB)
+0116.591 (0) Table wp_users: Total expected rows (via COUNT): 1
+0116.594 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0116.603 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1172) in 0.02 seconds
+0116.614 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0116.637 (0) Table wp_usermeta: Total expected rows (via COUNT): 26
+0116.642 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0116.651 (0) Table wp_usermeta: Rows added in this batch (next record: 26): 26 (uncompressed bytes in this segment=2980) in 0.03 seconds
+0116.666 (0) Table wp_usermeta: finishing file(s) (2, 1.5 KB)
+0116.689 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 23
+0116.694 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0116.703 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 29): 23 (uncompressed bytes in this segment=9761) in 0.03 seconds
+0116.718 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.6 KB)
+0116.739 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0116.747 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.02 seconds
+0116.759 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0116.777 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 4
+0116.779 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0116.787 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=723) in 0.02 seconds
+0116.798 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0116.816 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 65
+0116.819 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0116.828 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 65): 65 (uncompressed bytes in this segment=7275) in 0.02 seconds
+0116.839 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0116.879 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0116.889 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.03 seconds
+0116.910 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0116.936 (0) Table wp_comments: Total expected rows (via COUNT): 4
+0116.941 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0116.952 (0) Table wp_comments: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2748) in 0.03 seconds
+0116.967 (0) Table wp_comments: finishing file(s) (2, 1 KB)
+0116.988 (0) Table wp_links: Total expected rows (via COUNT): 0
+0116.996 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.02 seconds
+0117.010 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0117.031 (0) Table wp_postmeta: Total expected rows (via COUNT): 384
+0117.034 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.044 (0) Table wp_postmeta: Rows added in this batch (next record: 385): 384 (uncompressed bytes in this segment=29240) in 0.03 seconds
+0117.060 (0) Table wp_postmeta: finishing file(s) (2, 4.4 KB)
+0117.093 (0) Table wp_posts: Total expected rows (via COUNT): 149
+0117.098 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.114 (0) Table wp_posts: Rows added in this batch (next record: 149): 149 (uncompressed bytes in this segment=448767) in 0.05 seconds
+0117.129 (0) Table wp_posts: finishing file(s) (2, 34.2 KB)
+0117.144 (0) Table wp_term_relationships: Total expected rows (approximate): 55
+0117.153 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 55 (uncompressed bytes in this segment=1464) in 0.02 seconds
+0117.170 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0117.194 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 31
+0117.197 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.206 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 31): 31 (uncompressed bytes in this segment=2000) in 0.03 seconds
+0117.220 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0117.245 (0) Table wp_termmeta: Total expected rows (via COUNT): 29
+0117.249 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.253 (0) Table wp_termmeta: Rows added in this batch (next record: 29): 29 (uncompressed bytes in this segment=1646) in 0.02 seconds
+0117.270 (0) Table wp_termmeta: finishing file(s) (2, 0.6 KB)
+0117.290 (0) Table wp_terms: Total expected rows (via COUNT): 31
+0117.295 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.302 (0) Table wp_terms: Rows added in this batch (next record: 31): 31 (uncompressed bytes in this segment=2078) in 0.02 seconds
+0117.317 (0) Table wp_terms: finishing file(s) (2, 0.9 KB)
+0117.337 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 8
+0117.349 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 8 (uncompressed bytes in this segment=666) in 0.02 seconds
+0117.361 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0117.381 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 13
+0117.386 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.395 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 143): 13 (uncompressed bytes in this segment=2802) in 0.02 seconds
+0117.410 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 1 KB)
+0117.428 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0117.440 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=663) in 0.02 seconds
+0117.454 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0117.473 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0117.475 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.484 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=920) in 0.02 seconds
+0117.496 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.5 KB)
+0117.519 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 6
+0117.522 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.528 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 60): 6 (uncompressed bytes in this segment=1022) in 0.02 seconds
+0117.543 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.6 KB)
+0117.564 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0117.573 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.02 seconds
+0117.589 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0117.612 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 92
+0117.616 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.625 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 272): 92 (uncompressed bytes in this segment=17017) in 0.03 seconds
+0117.640 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2.7 KB)
+0117.662 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 61
+0117.668 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.674 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 61): 61 (uncompressed bytes in this segment=30157) in 0.02 seconds
+0117.691 (0) Table wp_wc_admin_notes: finishing file(s) (2, 6.2 KB)
+0117.709 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 1
+0117.713 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.723 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1200) in 0.02 seconds
+0117.738 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.6 KB)
+0117.756 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0117.763 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.02 seconds
+0117.774 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0117.790 (0) Table wp_wc_order_addresses: Total expected rows (via COUNT): 2
+0117.794 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.803 (0) Table wp_wc_order_addresses: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1319) in 0.02 seconds
+0117.816 (0) Table wp_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0117.835 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0117.844 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=715) in 0.02 seconds
+0117.862 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0117.884 (0) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 1
+0117.891 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.906 (0) Table wp_wc_order_operational_data: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1615) in 0.03 seconds
+0117.919 (0) Table wp_wc_order_operational_data: finishing file(s) (2, 0.7 KB)
+0117.939 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 1
+0117.945 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.951 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1347) in 0.02 seconds
+0117.962 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0117.981 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 1
+0117.986 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.992 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 149): 1 (uncompressed bytes in this segment=1356) in 0.02 seconds
+0118.005 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.6 KB)
+0118.023 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0118.030 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=793) in 0.01 seconds
+0118.042 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0118.061 (0) Table wp_wc_orders: Total expected rows (via COUNT): 1
+0118.065 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.075 (0) Table wp_wc_orders: Rows added in this batch (next record: 149): 1 (uncompressed bytes in this segment=1759) in 0.02 seconds
+0118.086 (0) Table wp_wc_orders: finishing file(s) (2, 0.8 KB)
+0118.106 (0) Table wp_wc_orders_meta: Total expected rows (via COUNT): 7
+0118.110 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.117 (0) Table wp_wc_orders_meta: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1180) in 0.02 seconds
+0118.132 (0) Table wp_wc_orders_meta: finishing file(s) (2, 0.6 KB)
+0118.149 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0118.157 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=831) in 0.02 seconds
+0118.170 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0118.187 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0118.190 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.199 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=881) in 0.02 seconds
+0118.211 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0118.225 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0118.231 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=667) in 0.01 seconds
+0118.244 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0118.263 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0118.266 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1071) in 0.01 seconds
+0118.278 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0118.303 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0118.308 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=873) in 0.02 seconds
+0118.321 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0118.338 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0118.343 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=852) in 0.01 seconds
+0118.357 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0118.377 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0118.381 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1410) in 0.01 seconds
+0118.394 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0118.412 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0118.419 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=642) in 0.02 seconds
+0118.433 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0118.451 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 1
+0118.454 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.462 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 9): 1 (uncompressed bytes in this segment=809) in 0.02 seconds
+0118.474 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.5 KB)
+0118.490 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0118.500 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=744) in 0.02 seconds
+0118.512 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0118.537 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0118.542 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.550 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=3290) in 0.03 seconds
+0118.564 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 1.4 KB)
+0118.582 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0118.587 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.593 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=915) in 0.02 seconds
+0118.604 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0118.622 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0118.626 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.632 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=849) in 0.02 seconds
+0118.644 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0118.661 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0118.665 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.671 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=697) in 0.02 seconds
+0118.681 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0118.698 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0118.704 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=786) in 0.01 seconds
+0118.718 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0118.736 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0118.741 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1142) in 0.01 seconds
+0118.755 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0118.761 (0) PHP event: code E_WARNING: filemtime(): stat failed for D:\XAMPP\htdocs\rx-shop/wp-content/updraft/backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db.gz (line 1976, D:\XAMPP\htdocs\rx-shop\wp-content\plugins\updraftplus\backup.php)
+0118.767 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_options.table.tmpr1368.gz (1/50/fopen): adding to final database dump
+0118.775 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_options.table.gz (2/50/fopen): adding to final database dump
+0118.778 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_users.table.tmpr2.gz (3/50/fopen): adding to final database dump
+0118.784 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_users.table.gz (4/50/fopen): adding to final database dump
+0118.789 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_usermeta.table.tmpr27.gz (5/50/fopen): adding to final database dump
+0118.795 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_usermeta.table.gz (6/50/fopen): adding to final database dump
+0118.800 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_actionscheduler_actions.table.tmpr30.gz (7/50/fopen): adding to final database dump
+0118.807 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_actionscheduler_actions.table.gz (8/50/fopen): adding to final database dump
+0118.811 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/50/fopen): adding to final database dump
+0118.815 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_actionscheduler_claims.table.gz (10/50/fopen): adding to final database dump
+0118.821 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_actionscheduler_groups.table.tmpr5.gz (11/50/fopen): adding to final database dump
+0118.824 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_actionscheduler_groups.table.gz (12/50/fopen): adding to final database dump
+0118.828 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_actionscheduler_logs.table.tmpr66.gz (13/50/fopen): adding to final database dump
+0118.836 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_actionscheduler_logs.table.gz (14/50/fopen): adding to final database dump
+0118.842 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_commentmeta.table.tmpr0.gz (15/50/fopen): adding to final database dump
+0118.848 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_commentmeta.table.gz (16/50/fopen): adding to final database dump
+0118.855 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_comments.table.tmpr5.gz (17/50/fopen): adding to final database dump
+0118.859 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_comments.table.gz (18/50/fopen): adding to final database dump
+0118.866 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_links.table.tmpr0.gz (19/50/fopen): adding to final database dump
+0118.871 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_links.table.gz (20/50/fopen): adding to final database dump
+0118.878 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_postmeta.table.tmpr386.gz (21/50/fopen): adding to final database dump
+0118.886 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_postmeta.table.gz (22/50/fopen): adding to final database dump
+0118.894 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_posts.table.tmpr150.gz (23/50/fopen): adding to final database dump
+0118.903 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_posts.table.gz (24/50/fopen): adding to final database dump
+0118.907 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_term_relationships.table.tmpr100001.gz (25/50/fopen): adding to final database dump
+0118.914 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_term_relationships.table.gz (26/50/fopen): adding to final database dump
+0118.928 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_term_taxonomy.table.tmpr32.gz (27/50/fopen): adding to final database dump
+0118.935 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_term_taxonomy.table.gz (28/50/fopen): adding to final database dump
+0118.950 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_termmeta.table.tmpr30.gz (29/50/fopen): adding to final database dump
+0118.958 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_termmeta.table.gz (30/50/fopen): adding to final database dump
+0118.962 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_terms.table.tmpr32.gz (31/50/fopen): adding to final database dump
+0118.970 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_terms.table.gz (32/50/fopen): adding to final database dump
+0118.977 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/50/fopen): adding to final database dump
+0118.984 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_category_lookup.table.gz (34/50/fopen): adding to final database dump
+0118.988 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_product_meta_lookup.table.tmpr144.gz (35/50/fopen): adding to final database dump
+0118.994 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_product_meta_lookup.table.gz (36/50/fopen): adding to final database dump
+0119.000 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/50/fopen): adding to final database dump
+0119.003 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_reserved_stock.table.gz (38/50/fopen): adding to final database dump
+0119.007 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/50/fopen): adding to final database dump
+0119.013 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_tax_rate_classes.table.gz (40/50/fopen): adding to final database dump
+0119.016 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_order_itemmeta.table.tmpr61.gz (41/50/fopen): adding to final database dump
+0119.022 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_order_itemmeta.table.gz (42/50/fopen): adding to final database dump
+0119.025 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/50/fopen): adding to final database dump
+0119.029 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/50/fopen): adding to final database dump
+0119.033 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_admin_note_actions.table.tmpr273.gz (45/50/fopen): adding to final database dump
+0119.037 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_admin_note_actions.table.gz (46/50/fopen): adding to final database dump
+0119.043 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_admin_notes.table.tmpr62.gz (47/50/fopen): adding to final database dump
+0119.046 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_admin_notes.table.gz (48/50/fopen): adding to final database dump
+0119.052 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_customer_lookup.table.tmpr2.gz (49/50/fopen): adding to final database dump
+0119.056 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_customer_lookup.table.gz (50/50/fopen): adding to final database dump
+0119.059 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_download_log.table.tmpr0.gz (51/50/fopen): adding to final database dump
+0119.064 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_download_log.table.gz (52/50/fopen): adding to final database dump
+0119.070 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_order_addresses.table.tmpr3.gz (53/50/fopen): adding to final database dump
+0119.077 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_order_addresses.table.gz (54/50/fopen): adding to final database dump
+0119.081 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (55/50/fopen): adding to final database dump
+0119.087 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_order_coupon_lookup.table.gz (56/50/fopen): adding to final database dump
+0119.093 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_order_operational_data.table.tmpr2.gz (57/50/fopen): adding to final database dump
+0119.098 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_order_operational_data.table.gz (58/50/fopen): adding to final database dump
+0119.102 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_order_product_lookup.table.tmpr2.gz (59/50/fopen): adding to final database dump
+0119.108 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_order_product_lookup.table.gz (60/50/fopen): adding to final database dump
+0119.114 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_order_stats.table.tmpr150.gz (61/50/fopen): adding to final database dump
+0119.121 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_order_stats.table.gz (62/50/fopen): adding to final database dump
+0119.128 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (63/50/fopen): adding to final database dump
+0119.132 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_order_tax_lookup.table.gz (64/50/fopen): adding to final database dump
+0119.135 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_orders.table.tmpr150.gz (65/50/fopen): adding to final database dump
+0119.141 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_orders.table.gz (66/50/fopen): adding to final database dump
+0119.145 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_orders_meta.table.tmpr8.gz (67/50/fopen): adding to final database dump
+0119.149 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_orders_meta.table.gz (68/50/fopen): adding to final database dump
+0119.152 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (69/50/fopen): adding to final database dump
+0119.157 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_product_attributes_lookup.table.gz (70/50/fopen): adding to final database dump
+0119.161 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_product_download_directories.table.tmpr3.gz (71/50/fopen): adding to final database dump
+0119.165 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_product_download_directories.table.gz (72/50/fopen): adding to final database dump
+0119.168 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_rate_limits.table.tmpr0.gz (73/50/fopen): adding to final database dump
+0119.172 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_rate_limits.table.gz (74/50/fopen): adding to final database dump
+0119.175 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_webhooks.table.tmpr0.gz (75/50/fopen): adding to final database dump
+0119.178 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_wc_webhooks.table.gz (76/50/fopen): adding to final database dump
+0119.182 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (77/50/fopen): adding to final database dump
+0119.187 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_api_keys.table.gz (78/50/fopen): adding to final database dump
+0119.193 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (79/50/fopen): adding to final database dump
+0119.198 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_attribute_taxonomies.table.gz (80/50/fopen): adding to final database dump
+0119.201 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (81/50/fopen): adding to final database dump
+0119.205 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (82/50/fopen): adding to final database dump
+0119.209 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_log.table.tmpr0.gz (83/50/fopen): adding to final database dump
+0119.213 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_log.table.gz (84/50/fopen): adding to final database dump
+0119.217 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_order_items.table.tmpr10.gz (85/50/fopen): adding to final database dump
+0119.221 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_order_items.table.gz (86/50/fopen): adding to final database dump
+0119.225 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (87/50/fopen): adding to final database dump
+0119.228 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_payment_tokens.table.gz (88/50/fopen): adding to final database dump
+0119.232 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_sessions.table.tmpr2.gz (89/50/fopen): adding to final database dump
+0119.235 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_sessions.table.gz (90/50/fopen): adding to final database dump
+0119.238 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr2.gz (91/50/fopen): adding to final database dump
+0119.244 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_shipping_zone_locations.table.gz (92/50/fopen): adding to final database dump
+0119.248 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr2.gz (93/50/fopen): adding to final database dump
+0119.251 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_shipping_zone_methods.table.gz (94/50/fopen): adding to final database dump
+0119.255 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (95/50/fopen): adding to final database dump
+0119.258 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_shipping_zones.table.gz (96/50/fopen): adding to final database dump
+0119.262 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (97/50/fopen): adding to final database dump
+0119.265 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_tax_rate_locations.table.gz (98/50/fopen): adding to final database dump
+0119.268 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (99/50/fopen): adding to final database dump
+0119.275 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db-table-wp_woocommerce_tax_rates.table.gz (100/50/fopen): adding to final database dump
+0119.304 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db.gz: finished writing out complete database file (442.3 KB)
+0119.326 (0) Total database tables backed up: 50 (backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db.gz, size: 453071, sha1: a934e0bae65b21ce3fd11fcd33abce43dac047fa, sha256: 7562f99570c2c206fbc311f1ef233c8a3878ebc58a20c5b03480b2506cff426e)
+0119.349 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-plugins.zip: plugins: This file has already been successfully uploaded
+0119.353 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-themes.zip: themes: This file has already been successfully uploaded
+0119.358 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-uploads.zip: uploads: This file has already been successfully uploaded
+0119.364 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-others.zip: others: This file has already been successfully uploaded
+0119.372 (0) backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0119.376 (0) Saving backup history. Total backup size: 53.9 MB
+0119.386 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0119.400 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0119.406 (0) No remote despatch: user chose no remote backup service
+0119.411 (0) Recording as successfully uploaded: backup_2023-11-22-0423_RXSHOP_5fe129e885c7-db.gz
+0119.424 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0119.430 (0) Number of backup sets in history: 1; groups (db): 1
+0119.434 (0) Examining (for databases) backup set with group_id=0, nonce=5fe129e885c7, datestamp=1700619838 (Nov 22 2023 02:23:58)
+0119.438 (0) This backup set is the backup set just made, so will not be deleted.
+0119.438 (0) Number of backup sets in history: 1; groups (files): 1
+0119.442 (0) Examining (for files) backup set with nonce=5fe129e885c7, datestamp=1700619838 (Nov 22 2023 02:23:58)
+0119.442 (0) This backup set is the backup set just made, so will not be deleted.
+0119.446 (0) This backup set is the backup set just made, so will not be deleted.
+0119.447 (0) This backup set is the backup set just made, so will not be deleted.
+0119.447 (0) This backup set is the backup set just made, so will not be deleted.
+0119.447 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0119.451 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0119.460 (0) Resume backup (5fe129e885c7, 0): finish run
+0119.471 (0) Decremented the semaphore (fd) by 1
+0119.490 (0) Semaphore (fd) unlocked
+0119.494 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0119.505 (0) No email will/can be sent - the user has not configured an email address.
+0119.510 (0) The backup succeeded and is now complete
